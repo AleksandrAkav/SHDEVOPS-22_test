@@ -1,4 +1,4 @@
-# SHDEVOPS-22_test
+
 _Занятие 4_
 
 Задача 1
@@ -15,7 +15,7 @@ https://hub.docker.com/repository/docker/alejandromunis/custom-nginx/general
 Задача 3
 <img width="1162" height="90" alt="image" src="https://github.com/user-attachments/assets/e57d84cd-0a47-4486-9c08-e11b99bd7aff" />
 
-Здесь я объясняю почему так произошло
+Подключение к контейнеру произошло не в интерактивном режиме, при закрытии сессии контейнер прекратил работу.
 
 <img width="496" height="117" alt="image" src="https://github.com/user-attachments/assets/fa5f5f4c-eea2-42a5-8528-ce88c8f52f42" />
 <img width="583" height="171" alt="image" src="https://github.com/user-attachments/assets/f72ebb16-4938-496e-9e72-b13c1820a09d" />
@@ -37,3 +37,8 @@ https://hub.docker.com/repository/docker/alejandromunis/custom-nginx/general
 
 Задача 5
 
+В мануале явно написано, что предпочитается compose.yaml 
+
+Для применения docker-compose.yaml требуется прописать в compose.yaml секцию include:
+
+<img width="1373" height="417" alt="image" src="https://github.com/user-attachments/assets/dfb0cd81-eb44-4a21-8f9c-4fe874a39c99" />
