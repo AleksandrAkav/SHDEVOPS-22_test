@@ -43,3 +43,25 @@ https://hub.docker.com/repository/docker/alejandromunis/custom-nginx/general
 
 <img width="1373" height="417" alt="image" src="https://github.com/user-attachments/assets/dfb0cd81-eb44-4a21-8f9c-4fe874a39c99" />
 
+<img width="1847" height="1265" alt="image" src="https://github.com/user-attachments/assets/f37e3711-72ca-46fa-bd1b-e5a14422ff53" />
+
+<img width="2073" height="146" alt="image" src="https://github.com/user-attachments/assets/3512e323-f4a2-4394-9297-cd599423eccc" />
+
+~~~ compose.yaml 
+version: "3"
+include:
+   - docker-compose.yaml
+services:
+  portainer:
+    network_mode: host
+    image: portainer/portainer-ce:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+~~~
+
+<img width="1572" height="186" alt="image" src="https://github.com/user-attachments/assets/f2ab7135-ce75-4a66-9b07-0b569f8c4810" />
+
+Первое предупреждение просит уточнить версию. Второе говорит, что контейнер task5-portainer-1 осиротел, предлагает запустить эту команду с флагом --remove-orphans для очистки скрипта.
+
+<img width="1730" height="268" alt="image" src="https://github.com/user-attachments/assets/f8664638-51c6-4cfa-a9a6-9ff3cf154271" />
+
